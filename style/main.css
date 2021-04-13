@@ -1,0 +1,67 @@
+
+main .filme-principal {
+    z-index: 1;
+    font-size: 16px;
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to top, #141414 1%, transparent 20%),
+    url('../img/capa-liga.jpg');
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+main .filme-principal .descricao{
+    margin-top: 2%;
+    margin-bottom: 8%;
+}
+
+main .filme-principal .titulo{
+    font-size: 3em;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+main .filme-principal #btn-play{
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: black ;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    transition: .5s ease all;
+    font-weight: bold;
+}
+
+main .filme-principal #btn-info{
+    background-color: rgba(151, 151, 151, 0.459);
+    border: none;
+    border-radius: 5px;
+    color:white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    transition: .5s ease all;
+    font-weight: bold;
+}
+
+main .filme-principal #btn-play:hover{
+    cursor: pointer;
+    background-color: rgba(241, 238, 238, 0.781);
+}
+
+main .filme-principal #btn-info:hover{
+    cursor: pointer;
+    background-color: rgba(151, 151, 151, 0.349);
+}
+
+.filme-principal .container{
+    width: 45%;
+    z-index: 1;
+}
+
+
+

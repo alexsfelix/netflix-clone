@@ -1,0 +1,59 @@
+@media screen and (max-width:700px) {
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .botao{
+        margin-top: 5px;
+        width: 200px;
+        height: 50px;
+    }
+    main .filme-principal{
+        z-index: 1;
+        background: linear-gradient(to top, #141414 1%, transparent 20%),
+        url('../img/capa-cel.jpg');
+        height: 100vh;
+        background-size: cover;
+    }
+
+    main .filme-principal .container{
+        width: 80%;
+        height: 50%;
+    }
+    main .container .titulo{
+        font-size: 2em;
+    }
+}
+
+/* Ipad */
+@media screen and (min-width:700px) and (max-width:1200px) {
+    main .filme-principal{
+        z-index: 1;
+        background: linear-gradient(to top, #141414 1%, transparent 20%),
+        url('../img/capa-cel.jpg');
+        height: 100vh;
+        background-size: cover;
+    }
+
+    main .filme-principal .container{
+        width: 80%;
+        height: 50%;
+
+    }
+    .botao{
+        margin-top: 5px;
+        width: 260px;
+        height: 50px;
+    }
+    .botao span{
+        font-size: 16px;
+        font: bold;
+    }
+    .botao i{
+        font-size: 20px;
+    }
+
+    main .container .titulo{
+        font-size: 3em;
+    }
+}
